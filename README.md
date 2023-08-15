@@ -47,8 +47,6 @@ The `SimpleProgressBar` script is a versatile Unity component that allows you to
 
 ### Methods
 
-- **Start**: Initializes the progress bar's settings.
-- **Update**: Updates the progress bar's appearance and behavior.
 - **SetFill**: Sets the fill amount of the graphic.
 - **SetColor**: Sets the color of the graphic based on the fill type.
 - **SetMin**: Sets the minimum value of the progress bar.
