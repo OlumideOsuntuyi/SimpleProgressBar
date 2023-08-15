@@ -13,7 +13,7 @@ The `SimpleProgressBar` script is a versatile Unity component that allows you to
 
 ## Getting Started
 
-1. Install the unity package
+1. <a href="https://assetstore.unity.com/packages/slug/263410">Install the Unity package</a>
 2. Attach the `SimpleProgressBar` script to a GameObject in your scene.
 3. Customize the various settings in the Inspector to tailor the progress bar to your needs.
 
