@@ -1,4 +1,4 @@
-# SimpleProgressBar Script
+# SimpleProgressBar
 
 The `SimpleProgressBar` script is a versatile Unity component that allows you to create and customize a simple progress bar. This script provides a range of options for visualizing and customizing the progress bar's appearance and behavior.
 
