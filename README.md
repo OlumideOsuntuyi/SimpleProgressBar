@@ -1,83 +1,67 @@
-<div align="center">
-  <img src="Images/banner.png" alt="SimpleProgressBar Banner" />
-</div>
+# SimpleProgressBar Script
 
-<div align="center">
-  <h1>SimpleProgressBar Script</h1>
-  <p>Create and Customize Stylish Progress Bars in Unity</p>
-</div>
+The `SimpleProgressBar` script is a versatile Unity component that allows you to create and customize a simple progress bar. This script provides a range of options for visualizing and customizing the progress bar's appearance and behavior.
 
-<div align="center">
-  <a href="#features">Features</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#showcase">Showcase</a> •
-  <a href="#notes">Notes</a> •
-  <a href="#license">License</a> •
-  <a href="#contact">Contact</a>
-</div>
+## Features
 
-<br />
+- Customizable progress bar appearance and behavior
+- Options for different progress visualization types
+- Gradient-based color interpolation
+- Adjustable minimum and maximum values
+- Support for background and outline components
+- Option to show percentage value
 
-<div align="center">
-  <img src="Images/progress_bar_demo.png" alt="Demo" />
-</div>
+## Getting Started
 
-## <div align="center">🚀 Features</div>
+1. Attach the `SimpleProgressBar` script to a GameObject in your scene.
+2. Customize the various settings in the Inspector to tailor the progress bar to your needs.
 
-<div align="center">
-  <p>Achieve elegance and functionality with the SimpleProgressBar script:</p>
-</div>
+## Script Details
 
-<div align="center">
-  <img src="Images/features.png" alt="Features" />
-</div>
+### Graphic Settings
 
-## <div align="center">⚙️ Getting Started</div>
+- **Graphic**: The Image component used for the progress bar.
+- **Sprite**: The default sprite for the progress bar.
+- **Size**: The size of the progress bar.
+- **Gradient**: The gradient used for color interpolation.
+- **Color**: The single color used for fill.
+- **Min Color**: The minimum color for gradient fill.
+- **Max Color**: The maximum color for gradient fill.
+- **Background**: The Image component for the background.
+- **Outline Perimeter**: The Image component for the outline.
+- **Outline Color**: The color of the outline.
+- **Background Color**: The single color used for fill background.
+- **Outline Thickness**: The thickness of the outline.
 
-<div align="center">
-  <p>Get started with just a few simple steps:</p>
-</div>
+### Progress Settings
 
-<div align="center">
-  <img src="Images/getting_started.png" alt="Getting Started" />
-</div>
+- **Progress Type**: The type of progress visualization.
+- **Fill Type**: The type of fill color.
+- **Fill Method**: The fill method for the progress bar.
+- **Value**: The current value of the progress bar.
+- **Min**: The minimum value of the progress bar.
+- **Max**: The maximum value of the progress bar.
+- **Show Percentage**: Whether to show the percentage value.
+- **Percentage**: The TMP_Text component to display the percentage value.
+- **Filled**: The calculated filled amount of the progress bar.
 
-## <div align="center">🌟 Showcase</div>
+### Methods
 
-<div align="center">
-  <p>Witness the beauty of custom progress bars in action:</p>
-</div>
+- **Start**: Initializes the progress bar's settings.
+- **Update**: Updates the progress bar's appearance and behavior.
+- **SetFill**: Sets the fill amount of the graphic.
+- **SetColor**: Sets the color of the graphic based on the fill type.
+- **SetMin**: Sets the minimum value of the progress bar.
+- **SetMax**: Sets the maximum value of the progress bar.
+- **SetMinMax**: Sets both the minimum and maximum values.
+- **SetValue**: Sets the value of the progress bar.
+- **Reset**: Resets the progress bar to its default settings.
+- **SetDefaultSprite**: Sets the default sprite for the progress bar.
+- **UpdateGraphic**: Updates the graphic settings of the progress bar.
+- **Add**: Adds a specified amount to the current value.
 
-<div align="center">
-  <img src="Images/showcase.gif" alt="Showcase" />
-</div>
+## Example Usage
 
-## <div align="center">📝 Notes</div>
-
-<div align="center">
-  <p>Important notes to keep in mind:</p>
-</div>
-
-<div align="center">
-  <img src="Images/notes.png" alt="Notes" />
-</div>
-
-## <div align="center">📄 License</div>
-
-<div align="center">
-  <p>SimpleProgressBar is licensed under the MIT License:</p>
-</div>
-
-<div align="center">
-  <img src="Images/license.png" alt="License" />
-</div>
-
-## <div align="center">📬 Contact</div>
-
-<div align="center">
-  <p>Reach out to us for questions and inquiries:</p>
-</div>
-
-<div align="center">
-  <img src="Images/contact.png" alt="Contact" />
-</div>
+```csharp
+// Attach this script to an empty GameObject with no children.
+// Customize the settings in the Inspector to create your desired progress bar.
